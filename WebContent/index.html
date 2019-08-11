@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.3.2/angular-ui-router.js"></script>
+<head>
+<meta charset="UTF-8">
+<title>AngularjsTestApp</title>
+<link rel="stylesheet" href="main.css">
+</head>
+<body>
+	<script type="text/javascript" src="js/module/AppModule.js"></script>
+	<script type="text/javascript" src="js/controller/AppController.js"></script>
+	<script type="text/javascript" src="js/service/AppService.js"></script>
+	<script type="text/javascript" src="js/controller/RadioController.js"></script>
+	<h1>Welcome to AngularjsTestApp</h1>
+	<div ng-app="AppModule">
+	<a ui-sref="radioBinding">click</a>
+	<ui-view></ui-view>
+	</div>
+</body>
+</html>

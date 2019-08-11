@@ -1,0 +1,23 @@
+<div>
+	<form name="form" ng-submit="submit()">
+	<h1>Feedback form</h1>
+    <fieldset class="rating">
+    <input type="radio" id="5" name="rating" value="5" ng-model="rating"><label class = "full" for="5" title="5 stars"></label>
+    <input type="radio" id="4.5" name="rating" value="4.5" ng-model="rating"><label class="half" for="4.5" title="4.5 stars"></label>
+    <input type="radio" id="4" name="rating" value="4" ng-model="rating"><label class = "full" for="4" title="4 stars"></label>
+    <input type="radio" id="3.5" name="rating" value="3.5" ng-model="rating"><label class="half" for="3.5" title="3.5 stars"></label>
+    <input type="radio" id="3" name="rating" value="3" ng-model="rating"><label class = "full" for="3" title="3 stars"></label>
+    <input type="radio" id="2.5" name="rating" value="2.5" ng-model="rating"><label class="half" for="2.5" title="2.5 stars"></label>
+    <input type="radio" id="2" name="rating" value="2" ng-model="rating"><label class = "full" for="2" title="2 stars"></label>
+    <input type="radio" id="1.5" name="rating" value="1.5" ng-model="rating"><label class="half" for="1.5" title="1.5 stars"></label>
+    <input type="radio" id="1" name="rating" value="1" ng-model="rating"><label class = "full" for="1" title="1 star"></label>
+    <input type="radio" id="0.5" name="rating" value="0.5" ng-model="rating"><label class="half" for="0.5" title="0.5 star"></label>
+    <br/>
+    <textarea placeholder="Give your feedback" ng-model="comment"></textarea>
+    </fieldset>
+    <br><br><br><br>
+    <input type="submit" value="submit">
+	</form>
+	{{name2}}
+</div>
+</html>
